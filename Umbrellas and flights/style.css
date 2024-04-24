@@ -1,0 +1,30 @@
+body{
+    background-color: #50b8e7;
+    color: #edf7fc;
+    font-family: "Caveat", cursive;
+    align-items: center;
+}
+img{
+    width: 50px;
+    height: 50px;
+    opacity: 0%;
+}
+.main{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+.leaf{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.leaf:hover > img{
+    animation-name: slideRight;
+    animation-duration: 5s;
+    opacity: 100%;
+}
+@keyframes slideRight{
+    to{transform: translateX(5000%) rotateZ(360deg)}
+}

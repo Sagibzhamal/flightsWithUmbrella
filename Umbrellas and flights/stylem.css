@@ -1,0 +1,117 @@
+body{
+    margin: 0px;
+    color: #edf7fc;
+    background-color: #50b8e7;
+}
+main{
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.up{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+.content{
+    display: none;
+}
+.underline{
+    position: absolute;
+    width: 150px;
+    margin: 0 0 0 380px;
+}   
+h1{
+    font-size: 75px;
+}
+h3{
+    font-size: 40px;
+    margin: 0px;
+}
+p{
+    font-size: 30px;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: #50b8e7;
+    padding: 15px;
+    margin: 15px;
+    overflow: hidden;
+}
+.navbar a{
+    color: #edf7fc;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    font-size: 25px;
+}
+.navbar a:hover{
+    background-color: hsl(200, 11%, 37%);
+}
+.navbar li{
+    float:left;
+}
+li:hover .content{
+    display: block;
+}
+.link{
+    text-align: center;
+}
+.nasa{
+    justify-content: center;
+    width: 100%;
+}
+.research{
+    display: flex;
+}
+.text{
+    width: 100%;
+    margin: 0 100px 0 100px;
+}
+.list{
+    font-size: 50px;
+}
+.main{
+    height: 90vh;
+}
+#title{
+    margin: 0 0 0 30px;
+}
+.button{
+    border: 1px solid #84cdee;
+    border-radius: 12px;
+    font-size: 50px;
+    text-decoration: none;
+    color: #edf7fc;
+    background-color: #84cdee;
+    margin: 0 0 0 150px;
+}
+.answer{
+    display: flex;
+    justify-content: space-between;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+.single{
+    display: flex;
+}
+.play{
+    margin: 100px;
+}
+.bee{
+    height: 30vh;
+}
+.ts{
+    width: 100%;
+    margin: 50px;
+}
+.logowt{
+    display: flex;
+}
+.logo{
+    width: 50px;
+}
